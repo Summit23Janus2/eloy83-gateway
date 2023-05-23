@@ -84,15 +84,14 @@ public class SummitBackendResource {
     //1. You can retrieve the GPS coordinates e.g. for your home town or some other city from here https://www.latlong.net/
     //2. You can use curl to send the actual POST request against the gateway's API endpoint like so
 
-    /*
+
     curl --location 'http://localhost:8080/fake/poi/add/point/' \
     --header 'Content-Type: application/json' \
     --data '{
-    "name":"Milano, Italy",
-    "description":"example city",
-    "coordinates":[45.464203,9.189982]
+    "name":"Lostorf, Switzerland",
+    "description":"Lostorf",
+    "coordinates":[47.3895648,7.8911992],
     }'
-    */
     
 
 }
